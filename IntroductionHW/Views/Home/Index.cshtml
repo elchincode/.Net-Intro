@@ -1,0 +1,66 @@
+﻿@*<h1>@ViewBag.Name @ViewData["Surname"] @TempData["Age"]</h1>*@
+
+
+<style>
+    .container-custom {
+     
+    }
+</style>
+
+<div class="container-custom">
+    <table class="table justify-content-center">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Surname</th>
+                <th scope="col">Age</th>
+                <th scope="col">Country</th>
+                <th scope="col">Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>@ViewBag.Name</td>
+                <td>@ViewBag.Surname</td>
+                <td>@TempData["Age"]</td>
+                <td>@TempData["Country"]</td>
+                <td>@TempData["Phone Number"]</td>
+
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>@ViewBag.Name</td>
+                <td>@ViewBag.Surname</td>
+                <td>@TempData["Age"]</td>
+                <td>@TempData["Country"]</td>
+                <td>@TempData["Phone Number"]</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>@ViewBag.Name</td>
+                <td>@ViewBag.Surname</td>
+                <td>@TempData["Age"]</td>
+                <td>@TempData["Country"]</td>
+                <td>@TempData["Phone Number"]</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>@ViewBag.Name</td>
+                <td>@ViewBag.Surname</td>
+                <td>@TempData["Age"]</td>
+                <td>@TempData["Country"]</td>
+                <td>@TempData["Phone Number"]</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>@ViewBag.Name</td>
+                <td>@ViewBag.Surname</td>
+                <td>@TempData["Age"]</td>
+                <td>@TempData["Country"]</td>
+                <td>@TempData["Phone Number"]</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
